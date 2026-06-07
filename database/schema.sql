@@ -1,0 +1,20 @@
+CREATE TABLE Doctor (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    specialty VARCHAR(100)
+);
+
+CREATE TABLE Patient (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100)
+);
+
+CREATE TABLE Appointment (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    appointment_date VARCHAR(50)
+);
+
+CREATE TABLE Prescription (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    medicine VARCHAR(100)
+);
